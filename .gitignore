@@ -1,0 +1,22 @@
+# ---- 教材 PDF：不进仓库 ----
+# 5 本教材共 61.8 MB（占项目 62.5 MB 的 99%），体积大、无版本意义。
+# 需要备份请用 Releases 附件、网盘或 Git LFS，不要塞进 git 历史。
+教材/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 临时文件 ----
+*.tmp
+~$*
+*.log
